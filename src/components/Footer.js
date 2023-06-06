@@ -6,7 +6,7 @@ function Footer() {
             <p className="  justify-start 	flex items-center flex-no-shrink text-black space-y-4 ">
                 DeepLeaf by 1TRAV, All Rights Are Reserved, Copyright 2023.
             </p>
-{/* 
+
                 <div className="sm:flex sm:items-center sm:w-auto justify-end">
                     <Link to="#" className="text-gray-400 mr-3 hover:text-gray-500">
                         <span className="sr-only">Facebook</span>
@@ -124,7 +124,7 @@ function Footer() {
                             Privacy Policy
                         </Link>
                     </div>
-                </div> */}
+                </div> 
 
 
             </div>

@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
 
 body {
   margin: 0;
@@ -15,3 +17,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.transparent-bg {
+  background-color: transparent;
+}
+.pat{
+  color: white;
+  font-weight: bold;
+  font-size:70px}
+
+  .p{
+    font-size: 14px;
+    color: #262626;
+    }
+    .section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .main-heading{
+      color :rgba(2,140,8);
+    }
+    .underline{
+      height: 4px;
+      width:4rem;
+      background-color:green;
+      margin-top :10px;
+     margin-bottom: 10px;
+    }
+    .bg-c-light{
+    background-color:#DCDCDC
+    }
+    .card-image {
+      width: 100%;
+      height: 200px; /* Adjust the height as per your requirements */
+      object-fit: cover; /* Maintain aspect ratio and fill the container */
+    }
+    .card-body {
+      background-color: #f8f9fa; /* Set the background color for the card body */
+      padding: 20px;
+    }
+    
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .card-text {
+      font-size: 16px;
+      color: #262626;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    .text-lg {
+      color: #333;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@ import Footer from './Footer';
 
 const Layout = () => {
     return (
+        <div className="pattern-background"> 
         <>
             <Header/>
             <div className="min-h-screen">
@@ -11,6 +12,7 @@ const Layout = () => {
             </div>
             <Footer />
         </>
+        </div>
     )
 };
 
